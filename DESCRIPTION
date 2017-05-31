@@ -1,0 +1,22 @@
+Package: PoissonAutomodelViz
+Type: Package
+Title: Visualization of Poisson auto-models
+Version: 0.1.0
+Author: Ignacio Alvarez-Castro
+Maintainer: Ignacio Alvarez-Castro <nachalca@gmail.com>
+Depends:
+    ggplot2,
+    Rcpp,
+    reshape2,
+    xtable,
+    knitr
+License: LGPL-2.1
+Description: Visualization of Poisson auto-models
+Suggests:
+    roxygen2 (>= 3.0.0)
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+URL: https://github.com/nachalca/PoissonAutomodelViz
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
